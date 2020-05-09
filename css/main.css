@@ -1,9 +1,9 @@
 body {
   background-color: #f2f2f2;
-  font-family: "Lato"; /* OPTIONAL: Google Fonts - base font */
+  font-family: 'Quicksand', sans-serif; /* OPTIONAL: Google Fonts - base font */
   font-weight: 300;
   font-size: 16px;
-  color: #555;
+  color: #3D3D3D;
 
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
@@ -11,9 +11,9 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway"; /* OPTIONAL: Google Fonts - title font */
+  font-family: 'Domine', serif; /* OPTIONAL: Google Fonts - title font */
   font-weight: 300;
-  color: #333;
+  color: #3D3D3D;
 }
 
 /* Paragraph & Typographic */
@@ -28,7 +28,7 @@ p {
 
 /* Links */
 a {
-  color: #1CBCAD;
+  color: #85144b;
   word-wrap: break-word;
 
   -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -69,8 +69,8 @@ a:after {
 
 /* Header Wrap */
 .header {
-  background: #1CBCAD;
-  background: url(../images/header-bg.jpg) no-repeat center top;
+  background: #B10DC9;
+  background: url(../images/gongcha-1.jpg) no-repeat center top;
   padding-top:140px;
   text-align:center;
   background-attachment: relative;
@@ -106,14 +106,14 @@ a:after {
 
 /* About Wrap */
 .about {
-  background: #2c3e50;
+  background:#F5BD42;
   padding-top: 60px;
   padding-bottom: 60px;
   color: white;
 } 
 
 .about h5, p {
-  color: white;
+  color: #3D3D3D;
 }
 
 .about i {
